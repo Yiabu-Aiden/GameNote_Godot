@@ -27,9 +27,9 @@ var defense:float
 ```
 
 ## 全局变量
-除了一些信号外,考虑将武器的
+除了一些信号外,考虑将武器的熟练度作为Array存于全局变量中,但关键还是本地存储数据
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTkwMDc2MTUsMzgzNDA3MjkzLC0yMT
-Q2NTcyOTI4LDUwMjQ5MDYxM119
+eyJoaXN0b3J5IjpbLTIxMzE3MDU5MCwzODM0MDcyOTMsLTIxND
+Y1NzI5MjgsNTAyNDkwNjEzXX0=
 -->
