@@ -27,9 +27,9 @@ var defense:float
 ```
 
 ## 全局变量
-除了一些信号外,考虑
+除了一些信号外,考虑将武器的
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgzNDA3MjkzLC0yMTQ2NTcyOTI4LDUwMj
-Q5MDYxM119
+eyJoaXN0b3J5IjpbLTEyNTkwMDc2MTUsMzgzNDA3MjkzLC0yMT
+Q2NTcyOTI4LDUwMjQ5MDYxM119
 -->
