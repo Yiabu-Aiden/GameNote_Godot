@@ -1,4 +1,6 @@
-## 
+## 角色与怪物
+### 层
+角色位于1层,怪物则位于2层
 ### 角色属性
 对角色和怪物同属一个类,即
 ```
@@ -24,7 +26,10 @@ var current_experience:float
 var defense:float
 ```
 
+## 全局变量
+除了一些信号外,考虑
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc5MTYyMzkwLC0yMTQ2NTcyOTI4LDUwMj
+eyJoaXN0b3J5IjpbMzgzNDA3MjkzLC0yMTQ2NTcyOTI4LDUwMj
 Q5MDYxM119
 -->
