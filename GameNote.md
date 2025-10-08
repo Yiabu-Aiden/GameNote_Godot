@@ -18,10 +18,11 @@ var upgrade_init_experience:float
 var upgrade_threshold_experience:float
 var current_experience:float
 ```
-防御zh
+防御值(结合函数进行生命扣除)
 ```
+var defense:float
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzkzOTI5MTAsNTAyNDkwNjEzXX0=
+eyJoaXN0b3J5IjpbLTIxNDY1NzI5MjgsNTAyNDkwNjEzXX0=
 -->
