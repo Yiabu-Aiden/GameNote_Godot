@@ -1,3 +1,4 @@
+## 
 ### 角色属性
 对角色和怪物同属一个类,即
 ```
@@ -24,5 +25,6 @@ var defense:float
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDY1NzI5MjgsNTAyNDkwNjEzXX0=
+eyJoaXN0b3J5IjpbNTc5MTYyMzkwLC0yMTQ2NTcyOTI4LDUwMj
+Q5MDYxM119
 -->
