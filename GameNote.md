@@ -11,10 +11,11 @@ var min_health:float
 var current_health:float
 #经验等级相关量
 var level:int=1
-var levelup_init_experience:float
-var levelup_threshold_experience:float
+var upgrade_init_experience:float
+var upgrade_threshold_experience:float
+var current_experience:float
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjE5OTA5NzQsNTAyNDkwNjEzXX0=
+eyJoaXN0b3J5IjpbLTEyOTIxMzQzNjksNTAyNDkwNjEzXX0=
 -->
