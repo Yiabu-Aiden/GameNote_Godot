@@ -4,10 +4,10 @@
 class_name figure
 ```
 而这个类应包含以下的全局量
-```GDScript
-class_
+```
+var 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwOTcxNjI4LDUwMjQ5MDYxM119
+eyJoaXN0b3J5IjpbMTk3MTc5NDQ5NCw1MDI0OTA2MTNdfQ==
 -->
