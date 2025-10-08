@@ -10,7 +10,7 @@ var max_health:float
 var min_health:float
 var current_health:float
 ``` 
-以下的bian'l
+经验变量只应用于角色
 ```
 #经验等级相关量
 var level:int=1
@@ -18,7 +18,12 @@ var upgrade_init_experience:float
 var upgrade_threshold_experience:float
 var current_experience:float
 ```
+```
+#攻击相关的变量
+var attack_value:float
+var atta
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMzkxMzA1MCw1MDI0OTA2MTNdfQ==
+eyJoaXN0b3J5IjpbMTYyMTEzMzg0OCw1MDI0OTA2MTNdfQ==
 -->
