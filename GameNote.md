@@ -49,6 +49,8 @@ var wp_control:Packedscene
 var ac_control:Packedscene
 var eq_control:Packedscene
 ```
+当mob或者某种东西触发掉落信号时，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NjQzNDgwLC0xNzM1NTg4ODE4XX0=
+eyJoaXN0b3J5IjpbMTI2MjY1NDg0NywxMDg2NDM0ODAsLTE3Mz
+U1ODg4MThdfQ==
 -->
