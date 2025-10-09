@@ -67,10 +67,12 @@ items_throw->Game_Global_Event.gd->items_center.tscn->item.tscn->bag.tscn
 ### 掉落物中心
 掉落物中心包括一个包含item_info的Array，以及一个item实例包
 ```
-@export var item_info_pool:Array[
+@export var item_info_pool:Array[iteminfo]
+@export var item_scene:Packedscene #用于掉落物实例化 
 ```
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzQ1MDYyNzksNDU3MTQ1MzkyLC0zNT
-E1MDU2MjcsMTA4NjQzNDgwLC0xNzM1NTg4ODE4XX0=
+eyJoaXN0b3J5IjpbLTEyMjU1NzM3OSw0NTcxNDUzOTIsLTM1MT
+UwNTYyNywxMDg2NDM0ODAsLTE3MzU1ODg4MThdfQ==
 -->
