@@ -36,7 +36,11 @@ var wp_id #作为武器时的id
 var ac_id #作为配饰时的id
 var eq_id #作为装甲时的id
 
+#item纹理
+var item_texture:texture2D
 
+#掉落物等级
+var rarity
 
 #描述
 var wp_dsp 
@@ -53,6 +57,6 @@ var eq_control:Packedscene
 ```
 当mob或者某种东西触发掉落信号时，发送带有编号的信号，信号通过全局场景连接到掉落物管理场景，实例化item.tscn,并将资源传入item，当item被拾时，将资源传入背包后端，同时当在手上时将实例化资源的打包场景。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MTUwNTYyNywxMDg2NDM0ODAsLTE3Mz
-U1ODg4MThdfQ==
+eyJoaXN0b3J5IjpbMTczODM3ODM5MSwtMzUxNTA1NjI3LDEwOD
+Y0MzQ4MCwtMTczNTU4ODgxOF19
 -->
