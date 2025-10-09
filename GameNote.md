@@ -33,10 +33,10 @@ var defense:float
 游戏的性质就是掉落物均为武器（武器能做武器也能作为配饰等），因此我们用一个资源$Info.res$存储信息，其属性如下
 ```
 var wp_id #作为武器时的id
-var ac_id
-var eq_id
+var ac_id #作为配饰时的id
+var eq_id #作为装甲时的id
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNTczMjk5NiwxMjM4ODk3Njc2LC0yMT
-MxNzA1OTBdfQ==
+eyJoaXN0b3J5IjpbLTE3MzU1ODg4MTgsMTIzODg5NzY3NiwtMj
+EzMTcwNTkwXX0=
 -->
