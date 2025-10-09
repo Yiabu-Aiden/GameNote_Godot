@@ -37,6 +37,5 @@ var ac_id #作为配饰时的id
 var eq_id #作为装甲时的id
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzU1ODg4MTgsMTIzODg5NzY3NiwtMj
-EzMTcwNTkwXX0=
+eyJoaXN0b3J5IjpbLTE3MzU1ODg4MThdfQ==
 -->
