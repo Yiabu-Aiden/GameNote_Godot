@@ -35,14 +35,20 @@ var defense:float
 var wp_id #作为武器时的id
 var ac_id #作为配饰时的id
 var eq_id #作为装甲时的id
+
 #描述
 var wp_dsp 
 var ac_dsp
 var eq_dsp
 
+#故事描述
 var history
- 
+
+#Packedscene
+var wp_control:Packedscene
+var ac_control:Packedscene
+var eq_control:Packedscene
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg1MDk2OTgxLC0xNzM1NTg4ODE4XX0=
+eyJoaXN0b3J5IjpbMTA4NjQzNDgwLC0xNzM1NTg4ODE4XX0=
 -->
