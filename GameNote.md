@@ -35,7 +35,12 @@ var defense:float
 var wp_id #作为武器时的id
 var ac_id #作为配饰时的id
 var eq_id #作为装甲时的id
+#  
+var wp_dsp 
+var ac_dsp
+var eq_dsp 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzU1ODg4MThdfQ==
+eyJoaXN0b3J5IjpbLTE0MjA0NjQzOTEsLTE3MzU1ODg4MThdfQ
+==
 -->
