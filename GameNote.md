@@ -49,8 +49,8 @@ var wp_control:Packedscene
 var ac_control:Packedscene
 var eq_control:Packedscene
 ```
-当mob或者某种东西触发掉落信号时，
+当mob或者某种东西触发掉落信号时，发送带有编号的信号，信号通过全局场景连接到掉落物管理场景，实例化item.tscn,并将
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MjY1NDg0NywxMDg2NDM0ODAsLTE3Mz
+eyJoaXN0b3J5IjpbMTY2MjMyOTgwNywxMDg2NDM0ODAsLTE3Mz
 U1ODg4MThdfQ==
 -->
