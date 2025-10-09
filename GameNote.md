@@ -31,6 +31,11 @@ var defense:float
 
 ## 掉落物的实现
 游戏的性质就是掉落物均为武器（武器能做武器也能作为配饰等），因此我们用一个资源$Info.res$存储信息，其属性如下
+```
+var eq_id
+var bd_id
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzODg5NzY3NiwtMjEzMTcwNTkwXX0=
+eyJoaXN0b3J5IjpbLTE2NzgzODc5NDYsMTIzODg5NzY3NiwtMj
+EzMTcwNTkwXX0=
 -->
