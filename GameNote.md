@@ -58,10 +58,10 @@ var eq_control:Packedscene
 当mob或者某种东西触发掉落信号时，发送带有编号的信号，信号通过全局场景连接到掉落物管理场景，实例化item.tscn,并将资源传入item，当item被拾时，将资源传入背包后端，同时当在手上时将实例化资源的打包场景。
 即
 ```
-mob——
+items_throw->Game_Global_Event.gd->items_center.tscn->
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3Nzg0NjY3OCwtMzUxNTA1NjI3LDEwOD
-Y0MzQ4MCwtMTczNTU4ODgxOF19
+eyJoaXN0b3J5IjpbMzcxNzQyNzMwLC0zNTE1MDU2MjcsMTA4Nj
+QzNDgwLC0xNzM1NTg4ODE4XX0=
 -->
