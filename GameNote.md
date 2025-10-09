@@ -30,7 +30,7 @@ var defense:float
 除了一些信号外,考虑将武器的熟练度作为Array存于全局变量中,但关键还是本地存储数据
 
 ## 掉落物的实现
-游戏的性质就是掉落物均为武器（武器能做武器也能作为配饰等），因此
+游戏的性质就是掉落物均为武器（武器能做武器也能作为配饰等），因此我们用一个资源$Info.res$存储信息，其属性如下
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzk5MDc5NTcsLTIxMzE3MDU5MF19
+eyJoaXN0b3J5IjpbMTIzODg5NzY3NiwtMjEzMTcwNTkwXX0=
 -->
