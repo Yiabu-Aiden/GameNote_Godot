@@ -32,7 +32,7 @@ var defense:float
 ## 掉落物的实现
 游戏的性质就是掉落物均为武器（武器能做武器也能作为配饰等），因此我们用一个资源$Info.res$存储信息，其属性如下
 ```
-extend Re
+extend Resource
 
 class_name item_info
 
@@ -65,9 +65,12 @@ var eq_control:Packedscene
 items_throw->Game_Global_Event.gd->items_center.tscn->item.tscn->bag.tscn
 ```
 ### 掉落物中心
-掉落物中心包括一个包含item_info的Array
+掉落物中心包括一个包含item_info的Array，以及一个item实例包
+```
+@export var item_info_pool:Array[
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE1NDEzMzU4LDQ1NzE0NTM5MiwtMzUxNT
-A1NjI3LDEwODY0MzQ4MCwtMTczNTU4ODgxOF19
+eyJoaXN0b3J5IjpbLTE4NzQ1MDYyNzksNDU3MTQ1MzkyLC0zNT
+E1MDU2MjcsMTA4NjQzNDgwLC0xNzM1NTg4ODE4XX0=
 -->
