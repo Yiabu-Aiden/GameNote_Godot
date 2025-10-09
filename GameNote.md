@@ -49,8 +49,8 @@ var wp_control:Packedscene
 var ac_control:Packedscene
 var eq_control:Packedscene
 ```
-当mob或者某种东西触发掉落信号时，发送带有编号的信号，信号通过全局场景连接到掉落物管理场景，实例化item.tscn,并将
+当mob或者某种东西触发掉落信号时，发送带有编号的信号，信号通过全局场景连接到掉落物管理场景，实例化item.tscn,并将资源传入item，当item被拾时，将资源传入背包后端，同时当在
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjMyOTgwNywxMDg2NDM0ODAsLTE3Mz
+eyJoaXN0b3J5IjpbLTU5NDA4OTI2NiwxMDg2NDM0ODAsLTE3Mz
 U1ODg4MThdfQ==
 -->
