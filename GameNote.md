@@ -30,7 +30,7 @@ var defense:float
 除了一些信号外,考虑将武器的熟练度作为Array存于全局变量中,但关键还是本地存储数据
 
 ## 掉落物的实现
-物品均为
+游戏的性质就是掉落物均为
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjU4NjY2MTgsLTIxMzE3MDU5MF19
+eyJoaXN0b3J5IjpbLTE5MTk0NDgwNDMsLTIxMzE3MDU5MF19
 -->
