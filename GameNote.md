@@ -59,7 +59,7 @@ var wp_control:Packedscene
 var ac_control:Packedscene
 var eq_control:Packedscene
 ```
-当mob或者某种东西触发掉落信号时，发送带有编号的信号，信号通过全局场景连接到掉落物管理场景，实例化item.tscn,并将资源传入item，当item被拾时，通过全局场景将资源传入背包后端，同时当在手上时将实例化资源的打包场景。
+当mob或者某种东西触发掉落信号时，发送带有编号的信号，信号通过全局场景连接到掉落物管理场景，实例化item.tscn,并将资源传入item，当item被拾时，通过全局场景        将资源传入背包后端，同时当在手上时将实例化资源的打包场景。
 即
 ```
 items_throw->Game_Global_Event.gd->items_center.tscn->item.tscn->bag.tscn
@@ -70,7 +70,9 @@ items_throw->Game_Global_Event.gd->items_center.tscn->item.tscn->bag.tscn
 @export var item_info_pool:Array[iteminfo]
 @export var item_scene:Packedscene #用于掉落物实例化 
 ```
+### 二级配饰框
+在原来的一级背包中将textureRect换成场景。该场景包括
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNjg2MjYxOSw0NTcxNDUzOTIsLTM1MT
-UwNTYyNywxMDg2NDM0ODAsLTE3MzU1ODg4MThdfQ==
+eyJoaXN0b3J5IjpbNzMwOTkzMjY4LDQ1NzE0NTM5MiwtMzUxNT
+A1NjI3LDEwODY0MzQ4MCwtMTczNTU4ODgxOF19
 -->
