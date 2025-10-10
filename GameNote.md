@@ -73,9 +73,9 @@ items_throw->Game_Global_Event.gd->items_center.tscn->item.tscn->bag.tscn
 ### 二级配饰框
 在原来的一级背包中将textureRect换成场景。该场景包括一开始用于显示的按钮，以及弹出来的最终显示框（考虑利用动画来实现渐变效果）
 ### 背包拖动效果
-目前是通过纹理传输实现在槽中显示的效果，由于不是场景，显然难以满足拖动效果，目前拟定当检测到长按时，实例化普通的texturerect场景，并将当前格子的信号info传输
+目前是通过纹理传输实现在槽中显示的效果，由于不是场景，显然难以满足拖动效果，目前拟定当检测到长按时，实例化普通的texturerect场景，并将当前格子的信号info传输到texturerect中，激活移动函数。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5ODUzNDE2MSw3MjM0MTc2OTcsNDU3MT
-Q1MzkyLC0zNTE1MDU2MjcsMTA4NjQzNDgwLC0xNzM1NTg4ODE4
-XX0=
+eyJoaXN0b3J5IjpbLTE1MTU2NDI5MzQsNzIzNDE3Njk3LDQ1Nz
+E0NTM5MiwtMzUxNTA1NjI3LDEwODY0MzQ4MCwtMTczNTU4ODgx
+OF19
 -->
