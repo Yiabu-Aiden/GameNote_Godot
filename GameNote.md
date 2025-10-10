@@ -71,8 +71,9 @@ items_throw->Game_Global_Event.gd->items_center.tscn->item.tscn->bag.tscn
 @export var item_scene:Packedscene #用于掉落物实例化 
 ```
 ### 二级配饰框
-在原来的一级背包中将textureRect换成场景。该场景包括
+在原来的一级背包中将textureRect换成场景。该场景包括一开始用于显示的按钮，以及弹出来的最终显示框（考虑利用动画来实现渐变效果）
+### 背包拖动效果
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTkzMjY4LDQ1NzE0NTM5MiwtMzUxNT
+eyJoaXN0b3J5IjpbNzIzNDE3Njk3LDQ1NzE0NTM5MiwtMzUxNT
 A1NjI3LDEwODY0MzQ4MCwtMTczNTU4ODgxOF19
 -->
